@@ -3,8 +3,15 @@
 #include<windows.h>
 #include<stdlib.h>
 
+//Field size constatnts
 const int x_max = 100;
-const int y_max = 30;
+const int y_max = 25;
+//Game chars constants
+const char snake_head_char = 'O';
+const char wall_char = '#';
+const char price_char = '$';
+const char snake_tail_char = '*';
+
 
 enum Rotation
 {
